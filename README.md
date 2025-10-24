@@ -19,9 +19,9 @@ API diakses dari https://www.football-data.org/ dengan membuat free account. Unt
 untuk mengecek secara langsung seperti apa respons yang diberikan. 
 
 Kemudian di dalam AndroidManifest.xml menambahkan: <br>
- ```<uses-permission android:name="android.permission.INTERNET" />
  ```
-<br>
+<uses-permission android:name="android.permission.INTERNET" />
+ ```
 karena aplikasi menggunakan koneksi internet untuk mengambil data dari https://www.football-data.org/
 
 Kemudian membuat direktori utils yang berisi konstanta URL untuk mengakses API-nya. Selanjutnya membuat model dengan nama TeamResponse yang berisi atribut yang diperoleh dari response JSON API.
