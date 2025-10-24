@@ -6,9 +6,11 @@ Shift Baru : D
 Shif lama  : I
 
 ## Demo Aplikasi
+ 
 
 
-https://github.com/user-attachments/assets/d5177186-40d5-4a93-b8d5-08258dbcf17a 
+https://github.com/user-attachments/assets/ea63d9f5-69cc-461b-8a65-23e0e0282c0a
+
 
 
 
