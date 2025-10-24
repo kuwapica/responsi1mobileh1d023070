@@ -1,9 +1,9 @@
 # RESPONSI 1 MOBILE
 
-Nama       : Annida Aiska Humairoh
-NIM        : H1D023070
-Shift Baru : D
-Shif lama  : I
+Nama       : Annida Aiska Humairoh<br>
+NIM        : H1D023070<br>
+Shift Baru : D<br>
+Shif lama  : I<br>
 
 ## Demo Aplikasi
  
@@ -30,7 +30,7 @@ FootballRepository mengembalikan objek TeamResponse yang sudah jadi kepada MainV
 MainViewModel menerima objek TeamResponse. Setelah nilainya berubah, LiveData akan memberitahu activity yang sedang berjalan (PlayerActivity maupun HeadCoachActivity).
 PlayerActiviy ataupun HeadCoachActivity sekarang memiliki objek TeamResponse. <br>
 
-<b>PlayerActiviy<b> <br>
+<b>PlayerActiviy</b> <br>
 Untuk PlayerActivity akan mengambil daftar pemain di dalamnya yaitu squad.
 Selain itu pada PlayerActiviy, PlayerAdapter menerima List<Player> yang baru, menyimpannya, dan memanggil notifyDataSetChanged(). Panggilan ini memberitahu RecyclerView bahwa datanya telah berubah dan ia perlu memperbarui tampilannya.
 RecyclerView kemudian memanggil onBindViewHolder di adapter untuk setiap pemain dalam daftar baru. Di sinilah data setiap pemain (nama, nationality) diatur ke TextView dan warna kartu diubah berdasarkan posisi. Dan pada player saat diklik, akan menampilkan PlayerDetailFragment pada bagian bawah layar yang berisi data yang diambil dari API yaitu nama, lahir, nationality, dan posisi.<br>
